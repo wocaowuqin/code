@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import tensorflow as tf
+
 import matplotlib.pyplot as plt
+import tensorflow as tf
+
 
 def variable_summaries(name, var, with_max_min=False):
     """ Tensor summaries for TensorBoard visualization """
